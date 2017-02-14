@@ -38,6 +38,7 @@ var AnimalID = (
         screens={[
             iOSScreen,
             TitleScreen,
+            /*
             InfoWelcomeScreen,
             IDCarnivoreScreen,
             IDMarsupialScreen,
@@ -54,6 +55,7 @@ var AnimalID = (
             InfoSnoutScreen,
             WhatDoesANoseScreen,
             InfoSneezersScreen,
+            */
             DNDLionScreen,
             DNDSlothScreen,
             DNDWolfScreen,

@@ -1,4 +1,4 @@
-import MatchableReveal from 'shared/components/match_reveal/0.1';
+import MatchGame from 'shared/components/match_game/0.1';
 
 export default function (props, ref, key) {
     return (
@@ -8,157 +8,172 @@ export default function (props, ref, key) {
             key={key}
             id="match-game"
         >
-            <MatchableReveal
-                ref="matchable-reveal"
-                matchableCheckComplete
-                revealCheckComplete
-                randomizeMatchableList
-                assets={[
-                    <skoash.Audio ref="correct" type="sfx" src="media/audio/S_15.1.mp3" />,
-                ]}
-                matchableList={[
-                    <skoash.ListItem
-                        data-ref="frog"
-                        message="0"
-                        className="frog flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="frog2"
-                        message="0"
-                        className="lily-pad flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="cow"
-                        message="4"
-                        className="cow flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="cow2"
-                        message="4"
-                        className="grass flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="robin"
-                        message="1"
-                        className="robin flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="robin2"
-                        message="1"
-                        className="worm flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="fox"
-                        message="2"
-                        className="fox flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="fox2"
-                        message="2"
-                        className="mouse flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="dove"
-                        message="3"
-                        className="dove flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="dove2"
-                        message="3"
-                        className="cactus flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="hummingbird"
-                        message="5"
-                        className="humming-bird flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="hummingbird2"
-                        message="5"
-                        className="honeysuckle flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="rhino"
-                        message="6"
-                        className="rhino flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>,
-                    <skoash.ListItem
-                        data-ref="rhino2"
-                        message="6"
-                        className="oxpecker flip-container vertical animated"
-                    >
-                        <skoash.Component className="flipper">
-                            <skoash.Component className="animated front" />
-                            <skoash.Component className="animated back" />
-                        </skoash.Component>
-                    </skoash.ListItem>
-                ]}
-                revealList={[
+            <skoash.MediaCollection
+                play={_.get(props, 'data.audio') || _.get(props, 'data.reveal.open')}
+            >
+                <skoash.Audio ref="frog" type="voiceOver" src="media/audio/VO_13-5.mp3" delay={500} />
+                <skoash.Audio ref="cow" type="voiceOver" src="media/audio/VO_13-6.mp3" delay={500} />
+                <skoash.Audio ref="robin" type="voiceOver" src="media/audio/VO_13-7.mp3" delay={500} />
+                <skoash.Audio ref="fox" type="voiceOver" src="media/audio/VO_13-8.mp3" delay={500} />
+                <skoash.Audio ref="dove" type="voiceOver" src="media/audio/VO_13-9.mp3" delay={500} />
+                <skoash.Audio ref="hummingbird" type="voiceOver" src="media/audio/VO_13-10.mp3" delay={500} />
+                <skoash.Audio ref="rhino" type="voiceOver" src="media/audio/VO_13-11.mp3" delay={500} />
+                <skoash.Audio
+                    ref="correct"
+                    type="sfx"
+                    src="media/audio/S_15.1.mp3"
+                    onPlay={function () {
+                        this.updateScreenData({
+                            key: 'audio',
+                            data: null,
+                        });
+                    }}
+                />
+            </skoash.MediaCollection>
+            <MatchGame
+                onSelect={function () {
+                    this.updateScreenData({
+                        key: 'audio',
+                        data: 'correct',
+                    });
+                }}
+                bin={
+                    <skoash.Randomizer
+                        bin={[
+                            <skoash.ListItem
+                                message="frog"
+                                className="frog flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="frog"
+                                className="lily-pad flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="cow"
+                                className="cow flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="cow"
+                                className="grass flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="robin"
+                                className="robin flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="robin"
+                                className="worm flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="fox"
+                                className="fox flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="fox"
+                                className="mouse flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="dove"
+                                className="dove flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="dove"
+                                className="cactus flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="hummingbird"
+                                className="humming-bird flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="hummingbird"
+                                className="honeysuckle flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="rhino"
+                                className="rhino flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>,
+                            <skoash.ListItem
+                                message="rhino"
+                                className="oxpecker flip-container vertical animated"
+                            >
+                                <skoash.Component className="flipper">
+                                    <skoash.Component className="animated front" />
+                                    <skoash.Component className="animated back" />
+                                </skoash.Component>
+                            </skoash.ListItem>
+                        ]}
+                    />
+                }
+            />
+            <skoash.Reveal
+                openTarget="reveal"
+                openReveal={_.get(props, 'data.match-game.message')}
+                list={[
                     <skoash.ListItem
                         data-ref="frog"
                         className="frog"
@@ -303,16 +318,18 @@ export default function (props, ref, key) {
                         </p>
                     </skoash.ListItem>
                 ]}
-                revealAssets={[
-                    <skoash.Audio type="voiceOver" src="media/audio/VO_13-5.mp3" delay={1000} />,
-                    <skoash.Audio type="voiceOver" src="media/audio/VO_13-6.mp3" delay={1000} />,
-                    <skoash.Audio type="voiceOver" src="media/audio/VO_13-7.mp3" delay={1000} />,
-                    <skoash.Audio type="voiceOver" src="media/audio/VO_13-8.mp3" delay={1000} />,
-                    <skoash.Audio type="voiceOver" src="media/audio/VO_13-9.mp3" delay={1000} />,
-                    <skoash.Audio type="voiceOver" src="media/audio/VO_13-10.mp3" delay={1000} />,
-                    <skoash.Audio type="voiceOver" src="media/audio/VO_13-11.mp3" delay={1000} />
+            />
+            {/*
+            <MatchableReveal
+                ref="matchable-reveal"
+                matchableCheckComplete
+                revealCheckComplete
+                randomizeMatchableList
+                assets={[
+                    <skoash.Audio ref="correct" type="sfx" src="media/audio/S_15.1.mp3" />,
                 ]}
             />
+            */}
         </skoash.Screen>
     );
 }
