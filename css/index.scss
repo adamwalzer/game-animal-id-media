@@ -155,19 +155,19 @@ body > div > div {
         height: 100%;
 
         &.title {
-            background-image: url('../media/images/background/title.png');
+            background-image: url('./media/images/background/title.png');
         }
 
         &.id {
-            background-image: url('../media/images/background/id.png');
+            background-image: url('./media/images/background/id.png');
         }
 
         &.match {
-            background-image: url('../media/images/background/match.png');
+            background-image: url('./media/images/background/match.png');
         }
 
         &.nose {
-            background-image: url('../media/images/background/nose.png');
+            background-image: url('./media/images/background/nose.png');
         }
     }
 
@@ -236,7 +236,7 @@ button {
     border: 0;
 
     background-color: transparent;
-    background-image: url('../media/images/button.png');
+    background-image: url('./media/images/button.png');
     background-position: left top;
     background-size: 1230px 218px;
 
@@ -438,7 +438,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         top: 22%;
         left: 10%;
         margin-top: -120px;
-        background-image: url('../media/images/frame/reveal.png');
+        background-image: url('./media/images/frame/reveal.png');
         background-size: 100% 100%;
         width: 80%;
         height: 100%;
@@ -506,7 +506,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 }
 
 .video {
-    background: url('../media/_Frames/FR_2.png') center center no-repeat;
+    background: url('./media/_Frames/FR_2.png') center center no-repeat;
     background-size: 100% 100%;
 
     video {
@@ -612,7 +612,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     position: absolute;
                     top: -10%;
                     left: -10%;
-                    background: url('../media/images/frame/id.png');
+                    background: url('./media/images/frame/id.png');
                     background-position: 4px -20px;
                     background-size: 211%;
                     width: 120%;
@@ -649,22 +649,22 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             }
 
             .lion {
-                background: url('../media/images/img_3.2.png');
+                background: url('./media/images/img_3.2.png');
                 background-size: 100%;
             }
 
             .beaver {
-                background: url('../media/images/img_3.3.png');
+                background: url('./media/images/img_3.3.png');
                 background-size: 100%;
             }
 
             .gorilla {
-                background: url('../media/images/img_3.4.png');
+                background: url('./media/images/img_3.4.png');
                 background-size: 100%;
             }
 
             .giraffe {
-                background: url('../media/images/img_3.5.png');
+                background: url('./media/images/img_3.5.png');
                 background-size: 100%;
             }
         }
@@ -700,7 +700,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     position: absolute;
                     top: -10%;
                     left: -10%;
-                    background: url('../media/images/frame/id.png');
+                    background: url('./media/images/frame/id.png');
                     background-position: 4px -20px;
                     background-size: 211%;
                     width: 120%;
@@ -740,22 +740,22 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             }
 
             .koala {
-                background: url('../media/images/img_5.3.png');
+                background: url('./media/images/img_5.3.png');
                 background-size: 100%;
             }
 
             .beaver {
-                background: url('../media/images/img_5.2.png');
+                background: url('./media/images/img_5.2.png');
                 background-size: 100%;
             }
 
             .sloth {
-                background: url('../media/images/img_5.5.png');
+                background: url('./media/images/img_5.5.png');
                 background-size: 100%;
             }
 
             .ostrich {
-                background: url('../media/images/img_5.4.png');
+                background: url('./media/images/img_5.4.png');
                 background-size: 100%;
             }
         }
@@ -791,7 +791,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     position: absolute;
                     top: -10%;
                     left: -10%;
-                    background: url('../media/images/frame/id.png');
+                    background: url('./media/images/frame/id.png');
                     background-position: 4px -20px;
                     background-size: 211%;
                     width: 120%;
@@ -831,22 +831,22 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             }
 
             .chipmunk {
-                background: url('../media/images/img_4.3.png');
+                background: url('./media/images/img_4.3.png');
                 background-size: 100%;
             }
 
             .kangaroo {
-                background: url('../media/images/img_4.2.png');
+                background: url('./media/images/img_4.2.png');
                 background-size: 100%;
             }
 
             .cow {
-                background: url('../media/images/img_4.4.png');
+                background: url('./media/images/img_4.4.png');
                 background-size: 100%;
             }
 
             .falcon {
-                background: url('../media/images/img_4.5.png');
+                background: url('./media/images/img_4.5.png');
                 background-size: 100%;
             }
         }
@@ -882,7 +882,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     position: absolute;
                     top: -10%;
                     left: -10%;
-                    background: url('../media/images/frame/id.png');
+                    background: url('./media/images/frame/id.png');
                     background-position: 4px -20px;
                     background-size: 211%;
                     width: 120%;
@@ -922,22 +922,22 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             }
 
             .spider {
-                background: url('../media/images/img_6.5.png');
+                background: url('./media/images/img_6.5.png');
                 background-size: 100%;
             }
 
             .grasshoper {
-                background: url('../media/images/img_6.3.png');
+                background: url('./media/images/img_6.3.png');
                 background-size: 100%;
             }
 
             .ladybug {
-                background: url('../media/images/img_6.4.png');
+                background: url('./media/images/img_6.4.png');
                 background-size: 100%;
             }
 
             .roach {
-                background: url('../media/images/img_6.2.png');
+                background: url('./media/images/img_6.2.png');
                 background-size: 100%;
             }
         }
@@ -973,7 +973,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     position: absolute;
                     top: -10%;
                     left: -10%;
-                    background: url('../media/images/frame/id.png');
+                    background: url('./media/images/frame/id.png');
                     background-position: 4px -20px;
                     background-size: 211%;
                     width: 120%;
@@ -1013,22 +1013,22 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             }
 
             .dolphin {
-                background: url('../media/images/img_7.2.png');
+                background: url('./media/images/img_7.2.png');
                 background-size: 100%;
             }
 
             .snake {
-                background: url('../media/images/img_7.5.png');
+                background: url('./media/images/img_7.5.png');
                 background-size: 100%;
             }
 
             .pelican {
-                background: url('../media/images/img_7.4.png');
+                background: url('./media/images/img_7.4.png');
                 background-size: 100%;
             }
 
             .dragon {
-                background: url('../media/images/img_7.3.png');
+                background: url('./media/images/img_7.3.png');
                 background-size: 100%;
             }
         }
@@ -1064,7 +1064,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     position: absolute;
                     top: -10%;
                     left: -10%;
-                    background: url('../media/images/frame/id.png');
+                    background: url('./media/images/frame/id.png');
                     background-position: 4px -20px;
                     background-size: 211%;
                     width: 120%;
@@ -1104,22 +1104,22 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             }
 
             .clam {
-                background: url('../media/images/img_8.3.png');
+                background: url('./media/images/img_8.3.png');
                 background-size: 100%;
             }
 
             .octopus {
-                background: url('../media/images/img_8.4.png');
+                background: url('./media/images/img_8.4.png');
                 background-size: 100%;
             }
 
             .stingray {
-                background: url('../media/images/img_8.2.png');
+                background: url('./media/images/img_8.2.png');
                 background-size: 100%;
             }
 
             .scorpian {
-                background: url('../media/images/img_8.5.png');
+                background: url('./media/images/img_8.5.png');
                 background-size: 100%;
             }
         }
@@ -1155,7 +1155,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     position: absolute;
                     top: -10%;
                     left: -10%;
-                    background: url('../media/images/frame/id.png');
+                    background: url('./media/images/frame/id.png');
                     background-position: 4px -20px;
                     background-size: 211%;
                     width: 120%;
@@ -1195,22 +1195,22 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             }
 
             .alligator {
-                background: url('../media/images/img_9.2.png');
+                background: url('./media/images/img_9.2.png');
                 background-size: 100%;
             }
 
             .buzzor {
-                background: url('../media/images/img_9.4.png');
+                background: url('./media/images/img_9.4.png');
                 background-size: 100%;
             }
 
             .squid {
-                background: url('../media/images/img_9.3.png');
+                background: url('./media/images/img_9.3.png');
                 background-size: 100%;
             }
 
             .bat {
-                background: url('../media/images/img_9.5.png');
+                background: url('./media/images/img_9.5.png');
                 background-size: 100%;
             }
 
@@ -1247,7 +1247,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     position: absolute;
                     top: -10%;
                     left: -10%;
-                    background: url('../media/images/frame/id.png');
+                    background: url('./media/images/frame/id.png');
                     background-position: 4px -20px;
                     background-size: 211%;
                     width: 120%;
@@ -1287,22 +1287,22 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             }
 
             .deer {
-                background: url('../media/images/img_10.3.png');
+                background: url('./media/images/img_10.3.png');
                 background-size: 100%;
             }
 
             .possum {
-                background: url('../media/images/img_10.5.png');
+                background: url('./media/images/img_10.5.png');
                 background-size: 100%;
             }
 
             .tiger {
-                background: url('../media/images/img_10.4.png');
+                background: url('./media/images/img_10.4.png');
                 background-size: 100%;
             }
 
             .skunk {
-                background: url('../media/images/img_10.2.png');
+                background: url('./media/images/img_10.2.png');
                 background-size: 100%;
             }
 
@@ -1325,7 +1325,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         position: absolute;
         top: 8%;
         left: 15%;
-        background: url('../media/images/frame/reveal.png');
+        background: url('./media/images/frame/reveal.png');
         background-size: contain;
         width: 70%;
         height: 80%;
@@ -1454,7 +1454,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
             .front,
             .back {
-                background: url('../media/images/match/img_13.1.png');
+                background: url('./media/images/match/img_13.1.png');
                 background-size: 2700px 176px;
             }
 
@@ -1753,7 +1753,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         position: absolute;
         top: 8%;
         left: 15%;
-        background: url('../media/images/frame/reveal.png');
+        background: url('./media/images/frame/reveal.png');
         background-size: contain;
         width: 70%;
         height: 80%;
@@ -1799,7 +1799,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         span {
             position: absolute;
             opacity: 0;
-            background-image: url('../media/images/img_14.2.png');
+            background-image: url('./media/images/img_14.2.png');
             background-repeat: no-repeat;
             background-size: 760px 160px;
 
@@ -1889,13 +1889,13 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     left: 20%;
 
                     .front {
-                        background: url('../media/images/img_15.2.png');
+                        background: url('./media/images/img_15.2.png');
                         background-position: -9px 0;
                         background-size: cover;
                     }
 
                     .back {
-                        background: url('../media/images/img_15.2.png');
+                        background: url('./media/images/img_15.2.png');
                         background-position: 162px 0;
                         background-size: cover;
                     }
@@ -1906,13 +1906,13 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     left: 42%;
 
                     .front {
-                        background: url('../media/images/img_15.3.png');
+                        background: url('./media/images/img_15.3.png');
                         background-position: -9px 0;
                         background-size: cover;
                     }
 
                     .back {
-                        background: url('../media/images/img_15.3.png');
+                        background: url('./media/images/img_15.3.png');
                         background-position: 162px 0;
                         background-size: cover;
                     }
@@ -1923,13 +1923,13 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                     left: 65%;
 
                     .front {
-                        background: url('../media/images/img_15.4.png');
+                        background: url('./media/images/img_15.4.png');
                         background-position: -9px 0;
                         background-size: cover;
                     }
 
                     .back {
-                        background: url('../media/images/img_15.4.png');
+                        background: url('./media/images/img_15.4.png');
                         background-position: 162px 0;
                         background-size: cover;
                     }
@@ -1964,7 +1964,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             position: absolute;
             top: 22%;
             left: 21%;
-            background: url('../media/images/img_17-24.1.png');
+            background: url('./media/images/img_17-24.1.png');
             background-position: 3px 4px;
             background-size: 2500px 313px;
             width: 32%;
@@ -1975,7 +1975,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                 position: absolute;
                 top: -18%;
                 left: -18%;
-                background: url('../media/images/frame/dropzone.png');
+                background: url('./media/images/frame/dropzone.png');
                 background-size: contain;
                 width: 140%;
                 height: 140%;
@@ -1986,7 +1986,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         div ul > * {
             position: fixed;
             right: 25%;
-            background: url('../media/images/frame/draggable.png');
+            background: url('./media/images/frame/draggable.png');
             background-position: 165px -25px;
             background-size: 350px 195px;
             width: 15%;
@@ -2011,14 +2011,14 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
         .draggable {
             position: absolute;
-            background: url('../media/images/img_17-24.2.png');
+            background: url('./media/images/img_17-24.2.png');
             background-size: 3200px 133px;
             width: 100%;
             height: 100%;
 
             &::after {
                 position: absolute;
-                background: url('../media/images/frame/draggable.png');
+                background: url('./media/images/frame/draggable.png');
                 background-position: -21px -26px;
                 background-size: 350px 195px;
                 width: 100%;
@@ -2062,7 +2062,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             position: absolute;
             top: 22%;
             left: 21%;
-            background: url('../media/images/img_17-24.1.png');
+            background: url('./media/images/img_17-24.1.png');
             background-position: 320px 4px;
             background-size: 2500px 313px;
             width: 32%;
@@ -2073,7 +2073,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                 position: absolute;
                 top: -18%;
                 left: -18%;
-                background: url('../media/images/frame/dropzone.png');
+                background: url('./media/images/frame/dropzone.png');
                 background-size: contain;
                 width: 140%;
                 height: 140%;
@@ -2084,7 +2084,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         div ul > * {
             position: fixed;
             right: 25%;
-            background: url('../media/images/frame/draggable.png');
+            background: url('./media/images/frame/draggable.png');
             background-position: 165px -25px;
             background-size: 350px 195px;
             width: 15%;
@@ -2109,14 +2109,14 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
         .draggable {
             position: absolute;
-            background: url('../media/images/img_17-24.2.png');
+            background: url('./media/images/img_17-24.2.png');
             background-size: 3200px 133px;
             width: 100%;
             height: 100%;
 
             &::after {
                 position: absolute;
-                background: url('../media/images/frame/draggable.png');
+                background: url('./media/images/frame/draggable.png');
                 background-position: -21px -26px;
                 background-size: 350px 195px;
                 width: 100%;
@@ -2160,7 +2160,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             position: absolute;
             top: 22%;
             left: 21%;
-            background: url('../media/images/img_17-24.1.png');
+            background: url('./media/images/img_17-24.1.png');
             background-position: 2195px 4px;
             background-size: 2500px 313px;
             width: 32%;
@@ -2171,7 +2171,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                 position: absolute;
                 top: -18%;
                 left: -18%;
-                background: url('../media/images/frame/dropzone.png');
+                background: url('./media/images/frame/dropzone.png');
                 background-size: contain;
                 width: 140%;
                 height: 140%;
@@ -2182,7 +2182,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         div ul > * {
             position: fixed;
             right: 25%;
-            background: url('../media/images/frame/draggable.png');
+            background: url('./media/images/frame/draggable.png');
             background-position: 165px -25px;
             background-size: 350px 195px;
             width: 15%;
@@ -2207,14 +2207,14 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
         .draggable {
             position: absolute;
-            background: url('../media/images/img_17-24.2.png');
+            background: url('./media/images/img_17-24.2.png');
             background-size: 3200px 133px;
             width: 100%;
             height: 100%;
 
             &::after {
                 position: absolute;
-                background: url('../media/images/frame/draggable.png');
+                background: url('./media/images/frame/draggable.png');
                 background-position: -21px -26px;
                 background-size: 350px 195px;
                 width: 100%;
@@ -2258,7 +2258,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             position: absolute;
             top: 22%;
             left: 21%;
-            background: url('../media/images/img_17-24.1.png');
+            background: url('./media/images/img_17-24.1.png');
             background-position: 628px 4px;
             background-size: 2500px 313px;
             width: 32%;
@@ -2269,7 +2269,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                 position: absolute;
                 top: -18%;
                 left: -18%;
-                background: url('../media/images/frame/dropzone.png');
+                background: url('./media/images/frame/dropzone.png');
                 background-size: contain;
                 width: 140%;
                 height: 140%;
@@ -2280,7 +2280,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         div ul > * {
             position: fixed;
             right: 25%;
-            background: url('../media/images/frame/draggable.png');
+            background: url('./media/images/frame/draggable.png');
             background-position: 165px -25px;
             background-size: 350px 195px;
             width: 15%;
@@ -2305,14 +2305,14 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
         .draggable {
             position: absolute;
-            background: url('../media/images/img_17-24.2.png');
+            background: url('./media/images/img_17-24.2.png');
             background-size: 3200px 133px;
             width: 100%;
             height: 100%;
 
             &::after {
                 position: absolute;
-                background: url('../media/images/frame/draggable.png');
+                background: url('./media/images/frame/draggable.png');
                 background-position: -21px -26px;
                 background-size: 350px 195px;
                 width: 100%;
@@ -2356,7 +2356,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             position: absolute;
             top: 22%;
             left: 21%;
-            background: url('../media/images/img_17-24.1.png');
+            background: url('./media/images/img_17-24.1.png');
             background-position: 1879px 4px;
             background-size: 2500px 313px;
             width: 32%;
@@ -2367,7 +2367,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                 position: absolute;
                 top: -18%;
                 left: -18%;
-                background: url('../media/images/frame/dropzone.png');
+                background: url('./media/images/frame/dropzone.png');
                 background-size: contain;
                 width: 140%;
                 height: 140%;
@@ -2378,7 +2378,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         div ul > * {
             position: fixed;
             right: 25%;
-            background: url('../media/images/frame/draggable.png');
+            background: url('./media/images/frame/draggable.png');
             background-position: 165px -25px;
             background-size: 350px 195px;
             width: 15%;
@@ -2403,14 +2403,14 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
         .draggable {
             position: absolute;
-            background: url('../media/images/img_17-24.2.png');
+            background: url('./media/images/img_17-24.2.png');
             background-size: 3200px 133px;
             width: 100%;
             height: 100%;
 
             &::after {
                 position: absolute;
-                background: url('../media/images/frame/draggable.png');
+                background: url('./media/images/frame/draggable.png');
                 background-position: -21px -26px;
                 background-size: 350px 195px;
                 width: 100%;
@@ -2454,7 +2454,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             position: absolute;
             top: 22%;
             left: 21%;
-            background: url('../media/images/img_17-24.1.png');
+            background: url('./media/images/img_17-24.1.png');
             background-position: 942px 4px;
             background-size: 2500px 313px;
             width: 32%;
@@ -2465,7 +2465,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                 position: absolute;
                 top: -18%;
                 left: -18%;
-                background: url('../media/images/frame/dropzone.png');
+                background: url('./media/images/frame/dropzone.png');
                 background-size: contain;
                 width: 140%;
                 height: 140%;
@@ -2476,7 +2476,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         div ul > * {
             position: fixed;
             right: 25%;
-            background: url('../media/images/frame/draggable.png');
+            background: url('./media/images/frame/draggable.png');
             background-position: 165px -25px;
             background-size: 350px 195px;
             width: 15%;
@@ -2501,14 +2501,14 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
         .draggable {
             position: absolute;
-            background: url('../media/images/img_17-24.2.png');
+            background: url('./media/images/img_17-24.2.png');
             background-size: 3200px 133px;
             width: 100%;
             height: 100%;
 
             &::after {
                 position: absolute;
-                background: url('../media/images/frame/draggable.png');
+                background: url('./media/images/frame/draggable.png');
                 background-position: -21px -26px;
                 background-size: 350px 195px;
                 width: 100%;
@@ -2552,7 +2552,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             position: absolute;
             top: 22%;
             left: 21%;
-            background: url('../media/images/img_17-24.1.png');
+            background: url('./media/images/img_17-24.1.png');
             background-position: 1568px 4px;
             background-size: 2500px 313px;
             width: 32%;
@@ -2563,7 +2563,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                 position: absolute;
                 top: -18%;
                 left: -18%;
-                background: url('../media/images/frame/dropzone.png');
+                background: url('./media/images/frame/dropzone.png');
                 background-size: contain;
                 width: 140%;
                 height: 140%;
@@ -2574,7 +2574,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         div ul > * {
             position: fixed;
             right: 25%;
-            background: url('../media/images/frame/draggable.png');
+            background: url('./media/images/frame/draggable.png');
             background-position: 165px -25px;
             background-size: 350px 195px;
             width: 15%;
@@ -2599,14 +2599,14 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
         .draggable {
             position: absolute;
-            background: url('../media/images/img_17-24.2.png');
+            background: url('./media/images/img_17-24.2.png');
             background-size: 3200px 133px;
             width: 100%;
             height: 100%;
 
             &::after {
                 position: absolute;
-                background: url('../media/images/frame/draggable.png');
+                background: url('./media/images/frame/draggable.png');
                 background-position: -21px -26px;
                 background-size: 350px 195px;
                 width: 100%;
@@ -2650,7 +2650,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
             position: absolute;
             top: 22%;
             left: 21%;
-            background: url('../media/images/img_17-24.1.png');
+            background: url('./media/images/img_17-24.1.png');
             background-position: 1252px 4px;
             background-size: 2500px 313px;
             width: 32%;
@@ -2661,7 +2661,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
                 position: absolute;
                 top: -18%;
                 left: -18%;
-                background: url('../media/images/frame/dropzone.png');
+                background: url('./media/images/frame/dropzone.png');
                 background-size: contain;
                 width: 140%;
                 height: 140%;
@@ -2672,7 +2672,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
         div ul > * {
             position: fixed;
             right: 25%;
-            background: url('../media/images/frame/draggable.png');
+            background: url('./media/images/frame/draggable.png');
             background-position: 165px -25px;
             background-size: 350px 195px;
             width: 15%;
@@ -2697,14 +2697,14 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
         .draggable {
             position: absolute;
-            background: url('../media/images/img_17-24.2.png');
+            background: url('./media/images/img_17-24.2.png');
             background-size: 3200px 133px;
             width: 100%;
             height: 100%;
 
             &::after {
                 position: absolute;
-                background: url('../media/images/frame/draggable.png');
+                background: url('./media/images/frame/draggable.png');
                 background-position: -21px -26px;
                 background-size: 350px 195px;
                 width: 100%;
@@ -2768,7 +2768,7 @@ body > div > div:not(.DEMO) [id^='dnd-']:not(.REPLAY).COMPLETE .next-screen {
 
 #quit {
     .frame {
-        background: url('../media/images/frame/reveal.png');
+        background: url('./media/images/frame/reveal.png');
         background-position: 0 -10px;
         background-size: 100% 105%;
         width: 66%;
@@ -2867,7 +2867,7 @@ body:not(.DEMO) #what-does-a-nose-do {
                     top: -16%;
                     left: -9%;
                     z-index: 1;
-                    background: url('../media/images/frame/id.png') no-repeat;
+                    background: url('./media/images/frame/id.png') no-repeat;
                     background-size: 200% 100%;
                     width: 130%;
                     height: 125%;
@@ -2948,7 +2948,7 @@ body:not(.DEMO) #what-does-a-nose-do {
                     top: 50%;
                     left: 10%;
                     transform: translateY(-50%);
-                    background: url('../media/images/frame/reveal.png') no-repeat;
+                    background: url('./media/images/frame/reveal.png') no-repeat;
                     background-position: center center;
                     background-size: 100% auto;
                     padding-bottom: 50%;
@@ -3029,7 +3029,7 @@ body:not(.DEMO) #what-does-a-nose-do {
 
 //                 .side {
 //                     background-color: transparent;
-//                     background-image: url('../media/images/match/img_13.1.png');
+//                     background-image: url('./media/images/match/img_13.1.png');
 //                     background-position: -10px -15px;
 //                     background-size: 1800% 120%;
 //                 }
@@ -3106,7 +3106,7 @@ body:not(.DEMO) #what-does-a-nose-do {
 //             li {
 
 //                 div {
-//                     background: url(../media/images/frame/match.png) no-repeat;
+//                     background: url(./media/images/frame/match.png) no-repeat;
 //                     background-size: 100% auto;
 //                     background-position: center center;
 //                     padding-bottom: 70%;
@@ -3165,7 +3165,7 @@ body:not(.DEMO) #what-does-a-nose-do {
     .area {
         position: relative;
         border-radius: 50%;
-        background-image: url('../media/images/img_17-24.1.png');
+        background-image: url('./media/images/img_17-24.1.png');
         background-size: 3200px;
         width: 350px;
         height: 350px;
@@ -3178,7 +3178,7 @@ body:not(.DEMO) #what-does-a-nose-do {
             position: absolute;
             top: -20%;
             left: -20%;
-            background-image: url('../media/images/frame/dropzone.png');
+            background-image: url('./media/images/frame/dropzone.png');
             background-size: 100% 100%;
             width: 140%;
             height: 140%;
