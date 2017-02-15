@@ -16,7 +16,7 @@ export default function (props, ref, key) {
                     <skoash.Audio ref="incorrect" type="sfx" src="media/audio/drag-incorrect.mp3" complete />
                 ]}
                 dropzones={[
-                    <skoash.ListItem ref="gorilla" answers={['gorilla']} className="gorilla animated" />
+                    <skoash.ListItem ref="gorilla" answers={['0']} className="gorilla animated" />
                 ]}
                 dropzoneList={[
                     <skoash.ListItem ref="panda" className="panda animated" message="panda" return />,
@@ -33,8 +33,11 @@ export default function (props, ref, key) {
                     </skoash.ListItem>
                 ]}
                 revealAssets={[
-                    <skoash.Audio ref="gorilla" type="voiceOver" src="media/audio/VO_23-2.mp3" />
+                    <skoash.Audio ref="0" type="voiceOver" src="media/audio/VO_23-2.mp3" />
                 ]}
+                closeRespond={function () {
+                    skoash.trigger('goto', {index: _.parseInt(key) + 1});
+                }}
             />
         </skoash.Screen>
     );
