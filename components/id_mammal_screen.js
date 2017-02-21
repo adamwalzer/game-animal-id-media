@@ -4,8 +4,8 @@ export default function (props, ref, key) {
     return IDScreenComponent(props, ref, key, {
         id: 'id-mammal',
         vo: `${CMWN.MEDIA.VO}vo-7-1.mp3`,
-        title: `${CMWN.MEDIA.IMAGE}img-7.1.png`,
-        correct: `${CMWN.MEDIA.EFFECT}S_7.4.mp3`,
+        title: `${CMWN.MEDIA.IMAGE}img-7-1.png`,
+        correct: `${CMWN.MEDIA.EFFECT}s-7-4.mp3`,
         revealVO: `${CMWN.MEDIA.VO}vo-7-2.mp3`,
         revealContent: (
             <h3>

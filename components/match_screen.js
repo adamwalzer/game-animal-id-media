@@ -56,7 +56,7 @@ export default function (props, ref, key) {
                 <skoash.Audio
                     ref="correct"
                     type="sfx"
-                    src="media/audio/S_15.1.mp3"
+                    src={`${CMWN.MEIDA.EFFECT}s-15-1.mp3`}
                     onPlay={function () {
                         this.updateScreenData({
                             key: 'audio',
@@ -216,12 +216,12 @@ export default function (props, ref, key) {
                         <skoash.Image
                             data-ref="frog-thumb"
                             className="thumb"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-2.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-2.png`}
                         />
                         <skoash.Image
                             data-ref="frog-banner"
                             className="banner"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-3.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-3.png`}
                         />
                         <p>
                             The frog is cold blooded so it sits<br/>
@@ -236,12 +236,12 @@ export default function (props, ref, key) {
                         <skoash.Image
                             data-ref="robin-thumb"
                             className="thumb"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-4.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-4.png`}
                         />
                         <skoash.Image
                             data-ref="robin-banner"
                             className="banner"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-5.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-5.png`}
                         />
                         <p>
                             Earthworms are part of a<br/>
@@ -256,12 +256,12 @@ export default function (props, ref, key) {
                         <skoash.Image
                             data-ref="fox-thumb"
                             className="thumb"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-6.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-6.png`}
                         />
                         <skoash.Image
                             data-ref="fox-banner"
                             className="banner"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-7.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-7.png`}
                         />
                         <p>
                             The fox has a seasonal diet. In the summer he<br/>
@@ -277,12 +277,12 @@ export default function (props, ref, key) {
                         <skoash.Image
                             data-ref="dove-thumb"
                             className="thumb"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-8.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-8.png`}
                         />
                         <skoash.Image
                             data-ref="dove-banner"
                             className="banner"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-9.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-9.png`}
                         />
                         <p>
                             The dove pollinates the cactus by<br/>
@@ -298,12 +298,12 @@ export default function (props, ref, key) {
                         <skoash.Image
                             data-ref="cow-thumb"
                             className="thumb"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-10.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-10.png`}
                         />
                         <skoash.Image
                             data-ref="cow-banner"
                             className="banner"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-11.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-11.png`}
                         />
                         <p>
                             The cow eats the grass. It digests it<br/>
@@ -319,12 +319,12 @@ export default function (props, ref, key) {
                         <skoash.Image
                             data-ref="hummingbird-thumb"
                             className="thumb"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-12.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-12.png`}
                         />
                         <skoash.Image
                             data-ref="hummingbird-banner"
                             className="banner"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-13.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-13.png`}
                         />
                         <p>
                             The hummingbird hovers next to the<br/>
@@ -339,12 +339,12 @@ export default function (props, ref, key) {
                         <skoash.Image
                             data-ref="rhino-thumb"
                             className="thumb"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-14.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-14.png`}
                         />
                         <skoash.Image
                             data-ref="rhino-banner"
                             className="banner"
-                            src={`${CMWN.MEDIA.IMAGE}match/img-13-15.png`}
+                            src={`${CMWN.MEDIA.IMAGE}img-13-15.png`}
                         />
                         <p>
                             The oxpecker perches on the<br/>

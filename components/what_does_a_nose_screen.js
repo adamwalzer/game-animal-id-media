@@ -19,7 +19,7 @@ export default function (props, ref, key) {
                 allCorrect
                 selectableCheckComplete
                 assets={[
-                    <skoash.Audio ref="correct" type="sfx" src="media/audio/S_15.1.mp3" />
+                    <skoash.Audio ref="correct" type="sfx" src={`${CMWN.MEDIA.EFFECT}s-15-1.mp3`} />
                 ]}
                 selectableList={[
                     <skoash.ListItem data-ref="human" className="human flip-container vertical animated">
