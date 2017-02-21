@@ -18,25 +18,25 @@ export default function (props, ref, key) {
                     delay={500}
                 />
                 <skoash.Audio
-                    ref="cow"
+                    ref="robin"
                     type="voiceOver"
                     src={`${CMWN.MEDIA.VO}vo-13-6.mp3`}
                     delay={500}
                 />
                 <skoash.Audio
-                    ref="robin"
+                    ref="fox"
                     type="voiceOver"
                     src={`${CMWN.MEDIA.VO}vo-13-7.mp3`}
                     delay={500}
                 />
                 <skoash.Audio
-                    ref="fox"
+                    ref="dove"
                     type="voiceOver"
                     src={`${CMWN.MEDIA.VO}vo-13-8.mp3`}
                     delay={500}
                 />
                 <skoash.Audio
-                    ref="dove"
+                    ref="cow"
                     type="voiceOver"
                     src={`${CMWN.MEDIA.VO}vo-13-9.mp3`}
                     delay={500}
@@ -56,7 +56,7 @@ export default function (props, ref, key) {
                 <skoash.Audio
                     ref="correct"
                     type="sfx"
-                    src={`${CMWN.MEIDA.EFFECT}s-15-1.mp3`}
+                    src={`${CMWN.MEDIA.EFFECT}s-15-1.mp3`}
                     onPlay={function () {
                         this.updateScreenData({
                             key: 'audio',

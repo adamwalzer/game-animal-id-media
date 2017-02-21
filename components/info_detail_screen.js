@@ -11,7 +11,7 @@ export default function (props, ref, key) {
                 <skoash.Image
                     ref="banner"
                     className="banner animated"
-                    src={`${CMWN.MEDIA.IMAGE}match/img-13-16.png`}
+                    src={`${CMWN.MEDIA.IMAGE}img-13-16.png`}
                 />
                 <h3>
                     You’ve learned about classifications<br/>
