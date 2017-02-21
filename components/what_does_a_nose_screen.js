@@ -8,7 +8,7 @@ export default function (props, ref, key) {
             key={key}
             id="what-does-a-nose"
         >
-            <skoash.Audio ref="vo" type="voiceOver" src="media/audio/VO_15-1.mp3" />
+            <skoash.Audio ref="vo" type="voiceOver" src={`${CMWN.MEDIA.VO}vo-15-1.mp3`} />
             <skoash.Image ref="title" className="title animated" src={`${CMWN.MEDIA.IMAGE}img-15-1.png`} />
             <skoash.Component>
                 <h3>Touch each nose.</h3>
@@ -42,9 +42,9 @@ export default function (props, ref, key) {
                     </skoash.ListItem>
                 ]}
                 revealAssets={[
-                    <skoash.Audio ref="human" type="voiceOver" src="media/audio/VO_15-2.mp3" />,
-                    <skoash.Audio ref="rabbit" type="voiceOver" src="media/audio/VO_15-3.mp3" />,
-                    <skoash.Audio ref="rhino" type="voiceOver" src="media/audio/VO_15-4.mp3" />,
+                    <skoash.Audio ref="human" type="voiceOver" src={`${CMWN.MEDIA.VO}vo-15-2.mp3`} />,
+                    <skoash.Audio ref="rabbit" type="voiceOver" src={`${CMWN.MEDIA.VO}vo-15-3.mp3`} />,
+                    <skoash.Audio ref="rhino" type="voiceOver" src={`${CMWN.MEDIA.VO}vo-15-4.mp3`} />,
                 ]}
             />
         </skoash.Screen>

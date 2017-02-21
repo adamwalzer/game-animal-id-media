@@ -11,13 +11,48 @@ export default function (props, ref, key) {
             <skoash.MediaCollection
                 play={_.get(props, 'data.audio') || _.get(props, 'data.reveal.open')}
             >
-                <skoash.Audio ref="frog" type="voiceOver" src="media/audio/VO_13-5.mp3" delay={500} />
-                <skoash.Audio ref="cow" type="voiceOver" src="media/audio/VO_13-6.mp3" delay={500} />
-                <skoash.Audio ref="robin" type="voiceOver" src="media/audio/VO_13-7.mp3" delay={500} />
-                <skoash.Audio ref="fox" type="voiceOver" src="media/audio/VO_13-8.mp3" delay={500} />
-                <skoash.Audio ref="dove" type="voiceOver" src="media/audio/VO_13-9.mp3" delay={500} />
-                <skoash.Audio ref="hummingbird" type="voiceOver" src="media/audio/VO_13-10.mp3" delay={500} />
-                <skoash.Audio ref="rhino" type="voiceOver" src="media/audio/VO_13-11.mp3" delay={500} />
+                <skoash.Audio
+                    ref="frog"
+                    type="voiceOver"
+                    src={`${CMWN.MEDIA.VO}vo-13-5.mp3`}
+                    delay={500}
+                />
+                <skoash.Audio
+                    ref="cow"
+                    type="voiceOver"
+                    src={`${CMWN.MEDIA.VO}vo-13-6.mp3`}
+                    delay={500}
+                />
+                <skoash.Audio
+                    ref="robin"
+                    type="voiceOver"
+                    src={`${CMWN.MEDIA.VO}vo-13-7.mp3`}
+                    delay={500}
+                />
+                <skoash.Audio
+                    ref="fox"
+                    type="voiceOver"
+                    src={`${CMWN.MEDIA.VO}vo-13-8.mp3`}
+                    delay={500}
+                />
+                <skoash.Audio
+                    ref="dove"
+                    type="voiceOver"
+                    src={`${CMWN.MEDIA.VO}vo-13-9.mp3`}
+                    delay={500}
+                />
+                <skoash.Audio
+                    ref="hummingbird"
+                    type="voiceOver"
+                    src={`${CMWN.MEDIA.VO}vo-13-10.mp3`}
+                    delay={500}
+                />
+                <skoash.Audio
+                    ref="rhino"
+                    type="voiceOver"
+                    src={`${CMWN.MEDIA.VO}vo-13-11.mp3`}
+                    delay={500}
+                />
                 <skoash.Audio
                     ref="correct"
                     type="sfx"
