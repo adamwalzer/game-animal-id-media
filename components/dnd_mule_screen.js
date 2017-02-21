@@ -11,30 +11,40 @@ export default function (props, ref, key) {
             <DropzoneReveal
                 ref="dropzone-reveal"
                 dropzoneAssets={[
-                    <skoash.Audio ref="drag" type="sfx" src="media/audio/drag.mp3" />,
-                    <skoash.Audio ref="correct" type="sfx" src="media/audio/drag-correct.mp3" />,
-                    <skoash.Audio ref="incorrect" type="sfx" src="media/audio/drag-incorrect.mp3" complete />
+                    <skoash.Audio
+                        ref="drag"
+                        type="sfx"
+                        src={`${CMWN.MEDIA.EFFECT}drag.mp3`}
+                    />,
+                    <skoash.Audio
+                        ref="correct"
+                        type="sfx"
+                        src={`${CMWN.MEDIA.EFFECT}drag-correct.mp3`}
+                    />,
+                    <skoash.Audio
+                        ref="incorrect"
+                        type="sfx"
+                        src={`${CMWN.MEDIA.EFFECT}drag-incorrect.mp3`}
+                        complete
+                    />
                 ]}
                 dropzones={[
-                    <skoash.ListItem ref="mule" answers={['0']} className="mule animated" />
+                    <skoash.ListItem answers={['0']} className="mule animated" />
                 ]}
                 dropzoneList={[
                     <skoash.ListItem
-                        ref="capibara"
                         className="capibara animated"
                         message="capibara"
                         return
                     />,
                     <skoash.ListItem
-                        ref="goat"
                         className="goat animated"
                         message="goat"
                         return
                     />,
                     <skoash.ListItem
-                        ref="mule"
                         className="mule animated"
-                        message="mule"
+                        message="0"
                         return
                     />
                 ]}
@@ -48,7 +58,7 @@ export default function (props, ref, key) {
                     </skoash.ListItem>
                 ]}
                 revealAssets={[
-                    <skoash.Audio ref="0" type="voiceOver" src="media/audio/VO_24-2.mp3" />
+                    <skoash.Audio ref="0" type="voiceOver" src={`${CMWN.MEDIA.VO}vo-24-2.mp3`} />
                 ]}
                 closeRespond={function () {
                     skoash.trigger('goto', {index: _.parseInt(key) + 1});

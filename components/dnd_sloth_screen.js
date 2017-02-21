@@ -11,17 +11,30 @@ export default function (props, ref, key) {
             <DropzoneReveal
               ref="dropzone-reveal"
               dropzoneAssets={[
-                  <skoash.Audio ref="drag" type="sfx" src="media/audio/drag.mp3" />,
-                  <skoash.Audio ref="correct" type="sfx" src="media/audio/drag-correct.mp3" />,
-                  <skoash.Audio ref="incorrect" type="sfx" src="media/audio/drag-incorrect.mp3" complete />
+                  <skoash.Audio
+                      ref="drag"
+                      type="sfx"
+                      src={`${CMWN.MEDIA.EFFECT}drag.mp3`}
+                  />,
+                  <skoash.Audio
+                      ref="correct"
+                      type="sfx"
+                      src={`${CMWN.MEDIA.EFFECT}drag-correct.mp3`}
+                  />,
+                  <skoash.Audio
+                      ref="incorrect"
+                      type="sfx"
+                      src={`${CMWN.MEDIA.EFFECT}drag-incorrect.mp3`}
+                      complete
+                  />
               ]}
               dropzones={[
-                  <skoash.ListItem ref="sloth" answers={['0']} className="sloth animated" />
+                  <skoash.ListItem answers={['0']} className="sloth animated" />
               ]}
               dropzoneList={[
-                  <skoash.ListItem ref="pig" className="pig animated" message="pig" return />,
-                  <skoash.ListItem ref="mole" className="mole animated" message="mole" return />,
-                  <skoash.ListItem ref="sloth" className="sloth animated" message="sloth" return />
+                  <skoash.ListItem className="pig animated" message="pig" return />,
+                  <skoash.ListItem className="mole animated" message="mole" return />,
+                  <skoash.ListItem className="sloth animated" message="0" return />
               ]}
               revealList={[
                   <skoash.ListItem ref="sloth">
@@ -34,7 +47,7 @@ export default function (props, ref, key) {
                   </skoash.ListItem>
               ]}
               revealAssets={[
-                  <skoash.Audio ref="0" type="voiceOver" src="media/audio/VO_18-1.mp3" />
+                  <skoash.Audio ref="0" type="voiceOver" src={`${CMWN.MEDIA.VO}vo-18-1.mp3`} />
               ]}
               closeRespond={function () {
                   skoash.trigger('goto', {index: _.parseInt(key) + 1});
