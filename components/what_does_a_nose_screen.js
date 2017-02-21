@@ -9,7 +9,7 @@ export default function (props, ref, key) {
             id="what-does-a-nose"
         >
             <skoash.Audio ref="vo" type="voiceOver" src="media/audio/VO_15-1.mp3" />
-            <skoash.Image ref="title" className="title animated" src="media/images/img_15.1.png" />
+            <skoash.Image ref="title" className="title animated" src={`${CMWN.MEDIA.IMAGE}img-15-1.png`} />
             <skoash.Component>
                 <h3>Touch each nose.</h3>
             </skoash.Component>

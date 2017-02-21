@@ -66,9 +66,17 @@ export default function (props, ref, key) {
                 />
             </skoash.MediaSequence>
             <skoash.Component>
-                <skoash.Image ref="banner" className="banner-1 animated" src="media/images/img_14.1.png" />
+                <skoash.Image
+                    ref="banner"
+                    className="banner-1 animated"
+                    src={`${CMWN.MEDIA.IMAGE}img-14-1.png`}
+                />
                 <h2>That's right</h2>
-                <skoash.Image ref="banner-2" className="banner-2 animated" src="media/images/img_14.3.png" />
+                <skoash.Image
+                    ref="banner-2"
+                    className="banner-2 animated"
+                    src={`${CMWN.MEDIA.IMAGE}img-14-3.png`}
+                />
                 <span className={snout}></span>
                 <span className={schnoz}></span>
                 <span className={sniffer}></span>
