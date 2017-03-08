@@ -6,12 +6,12 @@ export default function (props, ref, key) {
             key={key}
             id="info-detail"
         >
-            <skoash.Audio ref="vo" type="voiceOver" src="media/audio/VO_13-12.mp3" />
+            <skoash.Audio ref="vo" type="voiceOver" src={`${CMWN.MEDIA.VO}vo-13-12.mp3`} />
             <skoash.Component className="frame">
                 <skoash.Image
                     ref="banner"
                     className="banner animated"
-                    src="media/images/match/img_13.16.png"
+                    src={`${CMWN.MEDIA.IMAGE}img-13-16.png`}
                 />
                 <h3>
                     You’ve learned about classifications<br/>

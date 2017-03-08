@@ -80,20 +80,20 @@ var AnimalID = (
             }
         }}
         assets={[
-            <skoash.Audio ref="bkg-0" type="background" src="media/audio/title.mp3" />,
-            <skoash.Audio ref="bkg-1" type="background" src="media/audio/background/BKG_3.mp3" />,
-            <skoash.Audio ref="bkg-2" type="background" src="media/audio/background/id.mp3" loop />,
-            <skoash.Audio ref="bkg-3" type="background" src="media/audio/background/match.mp3" />,
-            <skoash.Audio ref="bkg-4" type="background" src="media/audio/background/nose.mp3" />,
-            <skoash.Audio ref="bkg-5" type="background" src="media/audio/S_11.1.mp3" />,
+            <skoash.Audio ref="bkg-0" type="background" src={`${CMWN.MEDIA.EFFECT}title.mp3`} />,
+            <skoash.Audio ref="bkg-1" type="background" src={`${CMWN.MEDIA.EFFECT}bkg-3.mp3`} />,
+            <skoash.Audio ref="bkg-2" type="background" src={`${CMWN.MEDIA.EFFECT}id.mp3`} loop />,
+            <skoash.Audio ref="bkg-3" type="background" src={`${CMWN.MEDIA.EFFECT}match.mp3`} />,
+            <skoash.Audio ref="bkg-4" type="background" src={`${CMWN.MEDIA.EFFECT}nose.mp3`} />,
+            <skoash.Audio ref="bkg-5" type="background" src={`${CMWN.MEDIA.EFFECT}s-11-1.mp3`} />,
 
-            <skoash.Audio ref="button" type="sfx" src="media/audio/button.mp3" />,
-            <skoash.Audio ref="screen-complete" type="sfx" src="media/audio/complete.mp3" />,
+            <skoash.Audio ref="button" type="sfx" src={`${CMWN.MEDIA.EFFECT}button.mp3`} />,
+            <skoash.Audio ref="screen-complete" type="sfx" src={`${CMWN.MEDIA.EFFECT}complete.mp3`} />,
 
-            <skoash.Image className="hidden" src="media/images/background/title.png" />,
-            <skoash.Image className="hidden" src="media/images/background/id.png" />,
-            <skoash.Image className="hidden" src="media/images/background/match.png" />,
-            <skoash.Image className="hidden" src="media/images/background/nose.png" />,
+            <skoash.Image className="hidden" src={`${CMWN.MEDIA.IMAGE}bkg-title.png`} />,
+            <skoash.Image className="hidden" src={`${CMWN.MEDIA.IMAGE}bkg-id.png`} />,
+            <skoash.Image className="hidden" src={`${CMWN.MEDIA.IMAGE}bkg-match.png`} />,
+            <skoash.Image className="hidden" src={`${CMWN.MEDIA.IMAGE}bkg-nose.png`} />,
 
             <div className="game-background title" />,
             <div className="game-background id" />,

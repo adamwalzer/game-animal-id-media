@@ -21,7 +21,7 @@ export default function (props, ref, key, opts = {}) {
                     <skoash.Audio
                         ref="incorrect"
                         type="sfx"
-                        src="media/audio/id-incorrect.mp3"
+                        src={`${CMWN.MEDIA.EFFECT}id-incorrect.mp3`}
                         onPlay={function () {
                             this.updateScreenData({
                                 data: {

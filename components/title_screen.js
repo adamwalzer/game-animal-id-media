@@ -9,7 +9,7 @@ export default function (props, ref, key) {
             completeDelay={3000}
             completeOnStart
         >
-            <skoash.Image className="title animated" src="media/images/title.png" />
+            <skoash.Image className="title animated" src={`${CMWN.MEDIA.IMAGE}title.png`} />
             <skoash.Component className="sparkles">
                 <div></div>
                 <div></div>
