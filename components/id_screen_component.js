@@ -37,7 +37,6 @@ export default function (props, ref, key, opts = {}) {
                         complete
                     />
                 ],
-                selectables: selectables,
                 reveals: [
                     <skoash.ListItem ref="correct">
                         {opts.revealContent}
@@ -45,6 +44,11 @@ export default function (props, ref, key, opts = {}) {
                 ],
                 SelectableProps: {
                     answers: ['correct'],
+                    bin: (
+                        <skoash.Randomizer
+                            bin={selectables}
+                        />
+                    ),
                 },
                 RevealProps: {
                     onClose: () => {
